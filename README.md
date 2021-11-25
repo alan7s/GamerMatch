@@ -1,5 +1,5 @@
 # Projeto Web GamerMatch
-Find your clan ~~ Encontre seu clan para jogar.
+Find your clan ~~ Encontre seu clan.
 
 ## Implementações
 

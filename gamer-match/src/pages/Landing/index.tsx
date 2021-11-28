@@ -1,6 +1,9 @@
 import React from "react";
+
 import logoIMG from "../../assets/logoImg2.png"
-import iconPurpleHeart from "../../assets/icons/circle-purple-heart.svg"
+import iconPurpleHeart from "../../assets/icons/purple-heart.svg"
+
+import "./styles.css"
 
 function Landing() {
    return (
@@ -10,7 +13,7 @@ function Landing() {
                <h1>Gamer Match</h1>
                <h2>Encontre seu duo.</h2>
             </div>
-            <img src={logoIMG} alt="logo Gamer match" className="hero-image" />
+            <img src={logoIMG} alt="logo Gamer match" className="logo-image" />
             <div className="buttons-container">
                <a href="" className="signIn">Logar</a>
                <a href="" className="signUp">Cadastrar</a>

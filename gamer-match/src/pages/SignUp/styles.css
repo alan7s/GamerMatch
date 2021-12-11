@@ -37,6 +37,7 @@
   margin    : 5px 0 22px 0;
   display   : inline-block;
   border    : none;
+  border-radius: 0.8rem;
   background: var(--color-input-background);
 }
 

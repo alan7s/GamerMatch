@@ -6,7 +6,7 @@ import SignIn from './pages/SignIn';
 
 function App() {
   return (
-    <Landing/>
+    <SignIn/>
   );
 }
 

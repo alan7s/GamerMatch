@@ -9,7 +9,7 @@ function Signup() {
                <h1>Signup</h1>
                <h2>Encontre seu duo.</h2>
             </div>
-            <div className="signup-container">
+            <div className="singup-container">
                <h1>Cadastrar</h1>
                <p>Preencha os campos abaixo para criar sua conta</p>
                <label>
@@ -28,7 +28,7 @@ function Signup() {
                   Repita a senha:
                   <input type="password" placeholder="Repita sua senha" name="password-repreat" id="password-repreat" required />
                </label>
-               <button type="submit" className="registerbtn">Cadastrar</button>
+               <button type="submit" className="btnSignUp">Cadastrar</button>
             </div>
          </div>
       </div>

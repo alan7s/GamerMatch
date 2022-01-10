@@ -15,10 +15,6 @@
     margin-bottom: 3.2rem;
 }
 
-.logo-container h1 {
-    font-size: 4rem;
-}
-
 .logo-container h2 {
     font-weight: 500;
     font-size: 2rem;
@@ -27,15 +23,26 @@
 
 .logo-image {
     width: 50%;
-    margin: 5% 25%;
-    padding: 1%;
-    background: var(--color-primary-light);
-    border-radius: 50%;
+    margin-left: 25%;
+}
+
+.login-container {
+    margin-top: 20px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 0.8rem;
+    background: var(--color-input-background);
 }
 
 .buttons-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 3.2rem 0;
 }
 
@@ -55,10 +62,6 @@
     transition: background-color 0.2s;
 }
 
-.buttons-container a:first-child {
-    margin-right: 1.6rem;
-}
-
 .buttons-container a.signIn {
     background: var(--color-primary-lighter);
 }
@@ -75,16 +78,34 @@
     background: var(--color-secundary-dark);
 }
 
+.buttons-container div {
+    width: 30rem;
+    margin-right: 3.2rem;
+}
+
+.buttons-container div a {
+    width: 100%;
+}
+
+.buttons-container div a.secondaryButton {
+    margin-top: 1rem;
+    margin-left: 5px;
+    height: auto;
+    font: 500 1.3rem Poppins;
+    justify-content: left;
+}
+
 .total-connections {
     font-size: 1.2rem;
 
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: end;
 }
 
 .total-connections img {
     margin-left: 0.8rem;
+    margin-bottom: 0.4rem;
 }
 
 @media (min-width: 1100px) {
@@ -92,26 +113,36 @@
         max-width: 1100px;
 
         display: grid;
-        grid-template-rows: 350px 1fr;
-        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: 200px 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-areas:
-            'logo hero hero'
-            'buttons buttons total';
+            'logo hero'
+            'login  hero'
+            'buttons total';
     }
 
-    .logo-container {
+    #page-landing-content .logo-image {
+        width: 60%;
+        margin: auto;
+        margin-left: 20%;
+    }
+
+    #page-landing-content .logo-container {
         grid-area: logo;
     }
 
-    .logo-image {
+    #page-landing-content .logo-image {
         grid-area: hero;
     }
 
-    .buttons-container {
+    #page-landing-content .buttons-container {
         grid-area: buttons;
     }
 
-    .total-connections {
+    #page-landing-content .total-connections {
         grid-area: total;
+    }
+    #page-landing-content .login-container {
+        grid-area: login;
     }
 }

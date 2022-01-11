@@ -12,7 +12,11 @@ function NewPassword() {
                     <h1>Esqueci minha senha</h1>
                     <p>Informe seu email para recuperar sua conta</p>
                     <label>
-                        Email:
+                        Nova senha:
+                        <input type="email" placeholder="Digite seu email" name="email" id="email" required />
+                    </label>
+                    <label>
+                        Confirme a nova senha:
                         <input type="email" placeholder="Digite seu email" name="email" id="email" required />
                     </label>
                 </div>
@@ -21,7 +25,7 @@ function NewPassword() {
                         <img src={iconBack} alt="coração roxo" /> Voltar
                     </a>
                     <a href="/" className="signUp">
-                        Enviar
+                        Redefinir senha
                     </a>
                 </div>
             </div>

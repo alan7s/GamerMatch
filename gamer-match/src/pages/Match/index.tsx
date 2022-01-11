@@ -1,5 +1,4 @@
 import React from 'react';
-import PersonIcon from '@material-ui/icons/Person';
 
 import logoIMG from '../../assets/logoImg2.png';
 import play from '../../assets/icons/play.png';

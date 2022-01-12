@@ -7,13 +7,13 @@ import userpic2 from '../../assets/userpic/userpic2.jpg';
 import userpic3 from '../../assets/userpic/userpic3.jpg';
 import userpic4 from '../../assets/userpic/userpic4.jpg';
 import close from '../../assets/icons/closecinza.png'
+import close from '../../assets/icons/closecinza.png';
 import './styles.css';
 
 function ChatBox() {
     function showMsg() {
         let msgbox = document.querySelector('#msgbox');
         let chatbox = document.querySelector('#chatbox');
-
         if (msgbox?.classList.contains('show')) {
             msgbox?.classList.remove('show');
             msgbox?.classList.add('hide');
@@ -39,6 +39,18 @@ function ChatBox() {
                             <div className="message" id="message" onClick={showMsg}><img src={userpic1} alt="" /><span>Fulano</span></div>
                             <div className="message" id="message" onClick={showMsg}><img src={userpic2} alt="" /><span>Ciclano</span></div>
                             <div className="message" id="message" onClick={showMsg}><img src={userpic3} alt="" /><span>Beltrano</span></div>
+                            <div className="message" id="message" onClick={showMsg}>
+                                <img src={userpic1} alt="" />
+                                <span>Fulano</span>
+                            </div>
+                            <div className="message" id="message" onClick={showMsg}>
+                                <img src={userpic2} alt="" />
+                                <span>Ciclano</span>
+                            </div>
+                            <div className="message" id="message" onClick={showMsg}>
+                                <img src={userpic3} alt="" />
+                                <span>Beltrano</span>
+                            </div>
                         </div>
                     </div>
                     <div className="chatbox hide" id="chatbox">
@@ -62,6 +74,7 @@ function ChatBox() {
                                     </div>
                                 </div>
                                 <div className='message-left'>
+                                <div className="message-left">
                                     <div className="message-left">
                                         <div className="message-avatar">
                                             <img src={userpic1} />
@@ -86,12 +99,17 @@ function ChatBox() {
                         </div>
                     </div>
                 </div>
+<<<<<<< Updated upstream
                 {/*teste<div className="footer">
                     <div id="ball"></div>
                     <a href=""></a>
                     <a href=""></a>
                     <a href=""></a>
     </div>*/}
+=======
+                <div className="footer"></div>
+                <div id="ball"></div>
+>>>>>>> Stashed changes
             </div>
         </div>
     );

@@ -126,7 +126,6 @@
     position: relative;
     width: 100%;
     background-color: var(--color-primary);
-    border-radius: 10px;
 }
 
 .footer #ball {
@@ -147,6 +146,9 @@
     #page-match-content {
         max-width: 400px;
         max-height: 750px;
+        border-radius: 10px;
+    }
+    .footer {
         border-radius: 10px;
     }
 }

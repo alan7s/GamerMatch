@@ -86,7 +86,7 @@ function ChatBox() {
                         </div>
                     </div>
                 </div>
-                {/*<div className="footer">
+                {/*teste<div className="footer">
                     <div id="ball"></div>
                     <a href=""></a>
                     <a href=""></a>

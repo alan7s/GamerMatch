@@ -1,8 +1,6 @@
 import React from 'react';
 
 import logoIMG from '../../assets/logoImg2.png';
-import play from '../../assets/icons/play.png';
-import no from '../../assets/icons/close.png';
 import perfilPic from '../../assets/userpic/userpic1.jpg';
 import userpic1 from '../../assets/userpic/fakePic.png';
 import userpic2 from '../../assets/userpic/userpic2.jpg';
@@ -21,7 +19,7 @@ function ChatBox() {
             msgbox?.classList.add('hide');
             chatbox?.classList.remove('hide');
             chatbox?.classList.add('show');
-        }else{
+        } else {
             msgbox?.classList.remove('hide');
             msgbox?.classList.add('show');
             chatbox?.classList.remove('show');
@@ -30,7 +28,7 @@ function ChatBox() {
     }
     return (
         <div id="page-chat">
-            <div id="page-chat-content" className="container">
+            <div id="page-chat-content">
                 <div className="header">
                     <img src={logoIMG} alt="" />
                 </div>
@@ -88,8 +86,12 @@ function ChatBox() {
                         </div>
                     </div>
                 </div>
-                <div className="footer">
-                </div>
+                {/*<div className="footer">
+                    <div id="ball"></div>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+    </div>*/}
             </div>
         </div>
     );

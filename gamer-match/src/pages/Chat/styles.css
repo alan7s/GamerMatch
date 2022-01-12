@@ -227,3 +227,14 @@
 .message-content-right {
     background-color: #fe3c72;
 }
+
+@media (min-width: 900px) {
+    #page-chat-content {
+        max-width: 400px;
+        max-height: 750px;
+        border-radius: 10px;
+    }
+    .footer {
+        border-radius: 10px;
+    }
+}

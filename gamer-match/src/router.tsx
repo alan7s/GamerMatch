@@ -11,7 +11,7 @@ import Chat from './pages/Chat';
 
 const Router = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route element={<Landing />} path="/" />
                 <Route element={<SignUp />} path="/register" />

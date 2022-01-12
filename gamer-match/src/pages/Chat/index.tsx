@@ -99,8 +99,12 @@ function ChatBox() {
                         </div>
                     </div>
                 </div>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
                 {/*teste<div className="footer">
+=======
+                {/*<div className="footer">
+>>>>>>> parent of 67f4102 (Refatorando pagina chat)
                     <div id="ball"></div>
                     <a href=""></a>
                     <a href=""></a>

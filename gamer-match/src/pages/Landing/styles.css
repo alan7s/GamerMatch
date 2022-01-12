@@ -122,9 +122,10 @@
     }
 
     #page-landing-content .logo-image {
-        width: 60%;
-        margin: auto;
-        margin-left: 20%;
+        object-fit: cover;
+        height: 190px;
+        width: 70%;
+        margin: 0 0 auto auto;
     }
 
     #page-landing-content .logo-container {

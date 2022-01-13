@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/GamerMatch/static/css/main.8faf4024.chunk.css",
-    "main.js": "/GamerMatch/static/js/main.7920c662.chunk.js",
-    "main.js.map": "/GamerMatch/static/js/main.7920c662.chunk.js.map",
+    "main.js": "/GamerMatch/static/js/main.10df7471.chunk.js",
+    "main.js.map": "/GamerMatch/static/js/main.10df7471.chunk.js.map",
     "runtime-main.js": "/GamerMatch/static/js/runtime-main.7bb19c04.js",
     "runtime-main.js.map": "/GamerMatch/static/js/runtime-main.7bb19c04.js.map",
     "static/js/2.de684eae.chunk.js": "/GamerMatch/static/js/2.de684eae.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.7bb19c04.js",
     "static/js/2.de684eae.chunk.js",
     "static/css/main.8faf4024.chunk.css",
-    "static/js/main.7920c662.chunk.js"
+    "static/js/main.10df7471.chunk.js"
   ]
 }

@@ -9,3 +9,6 @@ Encontre seu duo.
 
 ## Front-end
 - https://alan7s.github.io/GamerMatch/
+
+## Proposta de telas a serem implementadas
+<img src="../main/proposta/telas_melhoradas/tela_Mensagens.png" width="250"> <img src="../main/proposta/telas_melhoradas/tela_MensagensPrivado.png" width="250"> <img src="../main/proposta/telas_melhoradas/tela_Perfil.png" width="250"> <img src="../main/proposta/telas_melhoradas/tela_Config.png" width="250"> <img src="../main/proposta/telas_melhoradas/tela_PerfilPublico.png" width="250">

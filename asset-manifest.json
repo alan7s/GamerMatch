@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/GamerMatch/static/css/main.8faf4024.chunk.css",
-    "main.js": "/GamerMatch/static/js/main.aba7d0f3.chunk.js",
-    "main.js.map": "/GamerMatch/static/js/main.aba7d0f3.chunk.js.map",
+    "main.css": "/GamerMatch/static/css/main.511a89bd.chunk.css",
+    "main.js": "/GamerMatch/static/js/main.cc092807.chunk.js",
+    "main.js.map": "/GamerMatch/static/js/main.cc092807.chunk.js.map",
     "runtime-main.js": "/GamerMatch/static/js/runtime-main.7bb19c04.js",
     "runtime-main.js.map": "/GamerMatch/static/js/runtime-main.7bb19c04.js.map",
     "static/js/2.de684eae.chunk.js": "/GamerMatch/static/js/2.de684eae.chunk.js",
     "static/js/2.de684eae.chunk.js.map": "/GamerMatch/static/js/2.de684eae.chunk.js.map",
     "index.html": "/GamerMatch/index.html",
-    "static/css/main.8faf4024.chunk.css.map": "/GamerMatch/static/css/main.8faf4024.chunk.css.map",
+    "static/css/main.511a89bd.chunk.css.map": "/GamerMatch/static/css/main.511a89bd.chunk.css.map",
     "static/js/2.de684eae.chunk.js.LICENSE.txt": "/GamerMatch/static/js/2.de684eae.chunk.js.LICENSE.txt",
+    "static/media/backPerfil.31571118.png": "/GamerMatch/static/media/backPerfil.31571118.png",
+    "static/media/cards.78b71263.png": "/GamerMatch/static/media/cards.78b71263.png",
+    "static/media/chat.cc119b61.png": "/GamerMatch/static/media/chat.cc119b61.png",
     "static/media/close.37efaefb.png": "/GamerMatch/static/media/close.37efaefb.png",
     "static/media/dots.245aa4be.png": "/GamerMatch/static/media/dots.245aa4be.png",
+    "static/media/fakePic.2594d272.jpg": "/GamerMatch/static/media/fakePic.2594d272.jpg",
     "static/media/fakePic.5a860986.png": "/GamerMatch/static/media/fakePic.5a860986.png",
     "static/media/logoImg2.863a92c3.png": "/GamerMatch/static/media/logoImg2.863a92c3.png",
+    "static/media/menu.235abdd8.png": "/GamerMatch/static/media/menu.235abdd8.png",
     "static/media/purple-heart.f9c387fc.svg": "/GamerMatch/static/media/purple-heart.f9c387fc.svg",
+    "static/media/star.66678cbe.png": "/GamerMatch/static/media/star.66678cbe.png",
     "static/media/userpic2.61440edb.jpg": "/GamerMatch/static/media/userpic2.61440edb.jpg",
     "static/media/userpic3.ac1ddb39.jpg": "/GamerMatch/static/media/userpic3.ac1ddb39.jpg",
     "static/media/userpic4.7061cf3f.jpg": "/GamerMatch/static/media/userpic4.7061cf3f.jpg"
@@ -22,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.7bb19c04.js",
     "static/js/2.de684eae.chunk.js",
-    "static/css/main.8faf4024.chunk.css",
-    "static/js/main.aba7d0f3.chunk.js"
+    "static/css/main.511a89bd.chunk.css",
+    "static/js/main.cc092807.chunk.js"
   ]
 }

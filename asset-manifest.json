@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/GamerMatch/static/css/main.8faf4024.chunk.css",
-    "main.js": "/GamerMatch/static/js/main.f642026b.chunk.js",
-    "main.js.map": "/GamerMatch/static/js/main.f642026b.chunk.js.map",
+    "main.js": "/GamerMatch/static/js/main.952f2cfd.chunk.js",
+    "main.js.map": "/GamerMatch/static/js/main.952f2cfd.chunk.js.map",
     "runtime-main.js": "/GamerMatch/static/js/runtime-main.7bb19c04.js",
     "runtime-main.js.map": "/GamerMatch/static/js/runtime-main.7bb19c04.js.map",
-    "static/js/2.80447301.chunk.js": "/GamerMatch/static/js/2.80447301.chunk.js",
-    "static/js/2.80447301.chunk.js.map": "/GamerMatch/static/js/2.80447301.chunk.js.map",
+    "static/js/2.de684eae.chunk.js": "/GamerMatch/static/js/2.de684eae.chunk.js",
+    "static/js/2.de684eae.chunk.js.map": "/GamerMatch/static/js/2.de684eae.chunk.js.map",
     "index.html": "/GamerMatch/index.html",
     "static/css/main.8faf4024.chunk.css.map": "/GamerMatch/static/css/main.8faf4024.chunk.css.map",
-    "static/js/2.80447301.chunk.js.LICENSE.txt": "/GamerMatch/static/js/2.80447301.chunk.js.LICENSE.txt",
+    "static/js/2.de684eae.chunk.js.LICENSE.txt": "/GamerMatch/static/js/2.de684eae.chunk.js.LICENSE.txt",
     "static/media/close.37efaefb.png": "/GamerMatch/static/media/close.37efaefb.png",
     "static/media/dots.245aa4be.png": "/GamerMatch/static/media/dots.245aa4be.png",
     "static/media/fakePic.5a860986.png": "/GamerMatch/static/media/fakePic.5a860986.png",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7bb19c04.js",
-    "static/js/2.80447301.chunk.js",
+    "static/js/2.de684eae.chunk.js",
     "static/css/main.8faf4024.chunk.css",
-    "static/js/main.f642026b.chunk.js"
+    "static/js/main.952f2cfd.chunk.js"
   ]
 }

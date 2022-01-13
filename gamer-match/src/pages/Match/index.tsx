@@ -1,4 +1,7 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
+
+import ImageGallery from 'react-image-gallery';
 
 import logoIMG from '../../assets/logoImg2.png';
 import dots from '../../assets/icons/dots.png';
@@ -12,9 +15,36 @@ import menu from '../../assets/icons/menu.png';
 import backPerfil from '../../assets/icons/backPerfil.png';
 
 import userpic1 from '../../assets/userpic/fakePic.jpg';
+
 import './styles.css';
+import './stylesGallery.css';
+
+function getWidthDimensions() {
+    const { innerWidth: width } = window;
+    return width;
+}
 
 function Match() {
+    const images = [
+        {
+            original: 'https://picsum.photos/id/1018/1000/600/',
+            thumbnail: 'https://picsum.photos/id/1018/250/150/',
+        },
+        {
+            original: 'https://picsum.photos/id/1015/1000/600/',
+            thumbnail: 'https://picsum.photos/id/1015/250/150/',
+        },
+        {
+            original: 'https://picsum.photos/id/1019/1000/600/',
+            thumbnail: 'https://picsum.photos/id/1019/250/150/',
+        },
+    ];
+
+    let width = 0;
+    width = getWidthDimensions();
+    console.log(width);
+    let TelaBool = width > 900 ? true : false;
+
     return (
         <div id="page-match">
             <div id="page-match-content">
@@ -29,7 +59,14 @@ function Match() {
                 </div>
                 <div className="card">
                     <div id="cardShadow"></div>
-                    <img id="cardPic" src={userpic1} alt="" />
+                    <ImageGallery items={images} showFullscreenButton={false} showNav={TelaBool} showPlayButton={false} showThumbnails={false} />
+                    <div className="gallery-content">
+                        <a className="bar"></a>
+                        <a className="bar"></a>
+                        <a className="bar"></a>
+                        <a className="bar"></a>
+                        <a className="bar"></a>
+                    </div>
                     <div className="buttons-content">
                         <div className="buttons" id="passB">
                             <img src={no} alt="" />

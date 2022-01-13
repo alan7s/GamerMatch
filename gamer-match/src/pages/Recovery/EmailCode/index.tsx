@@ -37,10 +37,10 @@ function EmailCode() {
                     </label>
                 </div>
                 <div className="buttons-container">
-                    <a href="/recovery/" className="secondaryButton">
+                    <a href={process.env.PUBLIC_URL + '/recovery'} className="secondaryButton">
                         <img src={iconBack} alt="coração roxo" /> Voltar
                     </a>
-                    <a href="/recovery/newPassword" className="signUp">
+                    <a href={process.env.PUBLIC_URL + '/recovery/newPassword'} className="signUp">
                         Enviar
                     </a>
                 </div>

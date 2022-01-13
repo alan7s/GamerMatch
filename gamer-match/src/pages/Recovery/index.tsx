@@ -17,10 +17,10 @@ function Recovery() {
                     </label>
                 </div>
                 <div className="buttons-container">
-                    <a href="/" className="secondaryButton">
+                    <a href={process.env.PUBLIC_URL + '/'} className="secondaryButton">
                         <img src={iconBack} alt="coração roxo" /> Voltar
                     </a>
-                    <a href="/recovery/emailCode" className="signUp">
+                    <a href={process.env.PUBLIC_URL + '/recovery/emailCode'} className="signUp">
                         Enviar
                     </a>
                 </div>

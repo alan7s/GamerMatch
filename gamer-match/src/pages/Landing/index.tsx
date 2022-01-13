@@ -26,14 +26,14 @@ function Landing() {
                 </div>
                 <div className="buttons-container">
                     <div>
-                        <a href="/match" className="signIn">
+                        <a href={process.env.PUBLIC_URL + '/match'} className="signIn">
                             Logar
                         </a>
-                        <a href="/recovery" className="secondaryButton">
+                        <a href={process.env.PUBLIC_URL + '/recovery'} className="secondaryButton">
                             Esqueci minha senha
                         </a>
                     </div>
-                    <a href="/register" className="signUp">
+                    <a href={process.env.PUBLIC_URL + '/register'} className="signUp">
                         Cadastrar
                     </a>
                 </div>

@@ -25,10 +25,10 @@ function Signup() {
                         <input type="password" placeholder="Repita sua senha" name="password-repreat" id="password-repreat" required />
                     </label>
                     <div className="buttons-container">
-                        <a href="/" className="secondaryButton">
+                        <a href={process.env.PUBLIC_URL + '/'} className="secondaryButton">
                             <img src={iconBack} alt="coração roxo" /> Voltar
                         </a>
-                        <a href="/" className="signUp">
+                        <a href={process.env.PUBLIC_URL + '/'} className="signUp">
                             Cadastrar
                         </a>
                     </div>

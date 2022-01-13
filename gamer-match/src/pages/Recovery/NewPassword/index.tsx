@@ -21,10 +21,10 @@ function NewPassword() {
                     </label>
                 </div>
                 <div className="buttons-container">
-                    <a href="/recovery" className="secondaryButton">
+                    <a href={process.env.PUBLIC_URL + '/recovery'} className="secondaryButton">
                         <img src={iconBack} alt="coração roxo" /> Voltar
                     </a>
-                    <a href="/" className="signUp">
+                    <a href={process.env.PUBLIC_URL + '/'} className="signUp">
                         Redefinir senha
                     </a>
                 </div>

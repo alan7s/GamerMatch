@@ -56,7 +56,7 @@ function Match() {
                     <a id="cardB" href="">
                         <img src={cards} alt="" />
                     </a>
-                    <a id="chatB" href="/chat">
+                    <a id="chatB" href={process.env.PUBLIC_URL + '/chat'}>
                         <img src={chat} alt="" />
                     </a>
                 </div>

@@ -105,7 +105,7 @@ function ChatBox() {
                     <a id="MatchesB" href="">
                         <img src={star} alt="" />
                     </a>
-                    <a id="cardB" href="/match">
+                    <a id="cardB" href={process.env.PUBLIC_URL + '/match'}>
                         <img src={cards} alt="" />
                     </a>
                     <a id="chatB" href="">

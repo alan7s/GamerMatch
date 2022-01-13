@@ -3,7 +3,15 @@ import React from 'react';
 import logoIMG from '../../assets/logoImg2.png';
 import dots from '../../assets/icons/dots.png';
 import no from '../../assets/icons/close.png';
-import userpic1 from '../../assets/userpic/fakePic.png';
+
+import star from '../../assets/icons/star.png';
+import chat from '../../assets/icons/chat.png';
+import cards from '../../assets/icons/cards.png';
+
+import menu from '../../assets/icons/menu.png';
+import backPerfil from '../../assets/icons/backPerfil.png';
+
+import userpic1 from '../../assets/userpic/fakePic.jpg';
 import './styles.css';
 
 function Match() {
@@ -11,7 +19,13 @@ function Match() {
         <div id="page-match">
             <div id="page-match-content">
                 <div className="header">
+                    <a id="backB" href="">
+                        <img src={backPerfil} alt="" />
+                    </a>
                     <img src={logoIMG} alt="" />
+                    <a id="menuB" href="">
+                        <img src={menu} alt="" />
+                    </a>
                 </div>
                 <div className="card">
                     <div id="cardShadow"></div>
@@ -29,13 +43,22 @@ function Match() {
                     </div>
                 </div>
                 <div className="description">
-                    <h3>Purutchuda, 24</h3>
+                    <h3>
+                        Purutchuda, <span>24</span>
+                    </h3>
+                    <h4>The Sims 4, Minecraft, CS-GO, Stardew Valley, Candy Crush</h4>
                 </div>
                 <div className="footer">
                     <div id="ball"></div>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
+                    <a id="MatchesB" href="">
+                        <img src={star} alt="" />
+                    </a>
+                    <a id="cardB" href="">
+                        <img src={cards} alt="" />
+                    </a>
+                    <a id="chatB" href="/chat">
+                        <img src={chat} alt="" />
+                    </a>
                 </div>
             </div>
         </div>
@@ -43,79 +66,3 @@ function Match() {
 }
 
 export default Match;
-
-/*<div id="page-match">
-            <div id="page-match-content" className="container">
-                <div className="logo-container">
-                    <h1>Gamer Match</h1>
-                    <h2>Encontre seu duo.</h2>
-                </div>
-                <div className="match-container">
-                    <ul>
-                        <li>
-                            <img src={userpic1} alt="" />
-                            <footer>
-                                <strong>Fulanos</strong>
-                                <p>Descrição de Fulano</p>
-                            </footer>
-                            <div className="buttons">
-                                <button type="button">
-                                    <img src={play} />
-                                </button>
-                                <button type="button">
-                                    <img src={no} />
-                                </button>
-                            </div>
-                        </li>
-                        <li>
-                            <img src={userpic2} alt="" />
-                            <footer>
-                                <strong>Fulano</strong>
-                                <p>Descrição de Fulano</p>
-                            </footer>
-                            <div className="buttons">
-                                <button type="button">
-                                    <img src={play} />
-                                </button>
-                                <button type="button">
-                                    <img src={no} />
-                                </button>
-                            </div>
-                        </li>
-                        <li>
-                            <img src={userpic3} alt="" />
-                            <footer>
-                                <strong>Fulano</strong>
-                                <p>Descrição de Fulano</p>
-                            </footer>
-                            <div className="buttons">
-                                <button type="button">
-                                    <img src={play} />
-                                </button>
-                                <button type="button">
-                                    <img src={no} />
-                                </button>
-                            </div>
-                        </li>
-                        <li>
-                            <img src={userpic4} alt="" />
-                            <footer>
-                                <strong>Fulano</strong>
-                                <p>Descrição de Fulano</p>
-                            </footer>
-                            <div className="buttons">
-                                <button type="button">
-                                    <img src={play} />
-                                </button>
-                                <button type="button">
-                                    <img src={no} />
-                                </button>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    );
-}
-*/

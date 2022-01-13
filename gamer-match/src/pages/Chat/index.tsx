@@ -7,6 +7,11 @@ import userpic2 from '../../assets/userpic/userpic2.jpg';
 import userpic3 from '../../assets/userpic/userpic3.jpg';
 import userpic4 from '../../assets/userpic/userpic4.jpg';
 import close from '../../assets/icons/closecinza.png';
+
+import star from '../../assets/icons/star.png';
+import chat from '../../assets/icons/chat.png';
+import cards from '../../assets/icons/cards.png';
+
 import './styles.css';
 
 function ChatBox() {
@@ -95,12 +100,18 @@ function ChatBox() {
                         </div>
                     </div>
                 </div>
-                {/*<div className="footer">
+                <div className="footer">
                     <div id="ball"></div>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-    </div>*/}
+                    <a id="MatchesB" href="">
+                        <img src={star} alt="" />
+                    </a>
+                    <a id="cardB" href="/match">
+                        <img src={cards} alt="" />
+                    </a>
+                    <a id="chatB" href="">
+                        <img src={chat} alt="" />
+                    </a>
+                </div>
             </div>
         </div>
     );
